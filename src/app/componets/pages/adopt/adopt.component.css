@@ -1,0 +1,39 @@
+.input-form-doacao {
+    border-radius: 25px !important;
+    margin: 2% 16%;
+    background-color: #fff;
+    border-color: #3B9E3E;
+    font-family: Poppins;
+    width: 70%;
+}
+::placeholder {
+    color:rgb(0, 0, 0);
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.topico-doacao {
+    background-color: #FFFFFF;
+    padding: 100px 0;
+    border-top: 2px inset #3B9E3E;
+    display: flex;
+    text-align: center;
+    font-size: 12px;
+}
+
+.topico-doacao .topico-conteudo-doacao {
+    margin: 30px;
+    color: #3B9E3E !important;
+    font-style: bold;
+    font-family: Poppins;
+}
+.input-form-adocao {
+    border-radius: 25px !important;
+    background-color: #fff;
+    border-color: #3B9E3E;
+    font-family: Poppins;
+    width: 16%;
+    background-image: url('/css/searchicon.png') !important;
+    /* background-position: 10px 10px; */
+    /* background-repeat: no-repeat; */
+}
