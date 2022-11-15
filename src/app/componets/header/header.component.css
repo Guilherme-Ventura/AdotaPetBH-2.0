@@ -5,7 +5,7 @@
     width: 100%;
     padding: 12px 25px;
     position: fixed;
-    display: inline-block;
+    display: flexbox;
 }
 
 .img-logo {
@@ -44,7 +44,7 @@
 }
 
 .buttons-container{
-    width: 400px;
+    width: 40%;
 }
 
 .button-login {
