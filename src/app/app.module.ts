@@ -10,6 +10,8 @@ import { AboutComponent } from './componets/pages/about/about.component';
 import { FAQComponent } from './componets/pages/faq/faq.component';
 import { DonateComponent } from './componets/pages/donate/donate.component';
 import { AdoptComponent } from './componets/pages/adopt/adopt.component';
+import { ModalLoginComponent } from './componets/modal-login/modal-login.component';
+import { ModalSignUpComponent } from './componets/modal-sign-up/modal-sign-up.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { AdoptComponent } from './componets/pages/adopt/adopt.component';
     AboutComponent,
     FAQComponent,
     DonateComponent,
-    AdoptComponent
+    AdoptComponent,
+    ModalLoginComponent,
+    ModalSignUpComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
