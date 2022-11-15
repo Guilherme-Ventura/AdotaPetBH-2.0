@@ -1,4 +1,4 @@
-.topico-doacao {
+.about-container {
     background-color: #FFFFFF;
     padding: 100px 0;
     border-top: 2px inset #3B9E3E;
@@ -7,9 +7,17 @@
     font-size: 12px;
 }
 
-.topico-doacao .topico-conteudo-doacao {
+.topico-conteudo-doacao {
     margin: 30px;
     color: #3B9E3E !important;
     font-style: bold;
     font-family: Poppins;
+}
+h1{
+    font-size: 400%;
+    padding: 30px;
+}
+h2{
+    font-size: 200%;
+    padding: 70px;
 }
