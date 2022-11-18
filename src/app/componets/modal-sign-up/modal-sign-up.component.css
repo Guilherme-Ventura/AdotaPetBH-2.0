@@ -1,192 +1,26 @@
-
-input {
-    border: 1px solid transparent;
-    border-bottom: 1px solid #ccc;
-    padding: 10px 0px;
-}
-
-input[type=text],
-input[type=number],
-input[type=date],
-input[type=file] {
-    width: 400px;
-}
-.input-form {
-    border-radius: 25px !important;
-    margin: 2% 16%;
-    background-color: #53c757;
-    border-color: #fff;
-    font-family: Poppins;
-    width: 70%;
-}
-
-textarea {
-    padding: 10px 5px;
-    width: 400px;
-}
-    /* ficar focado */
 .login-modal {
-    z-index: 3;
     display: none;
-    padding-top: 100px;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: 40%;
 }
 /* drop */
 .login-modal-content {
     margin: auto;
-    background-color: #fff;
-    position: relative;
-    padding: 0;
-    outline: 0;
-    width: 50px;
+    background-color: #3B9E3E;
+    position: absolute;
 }
 
 .login-animate-top {
     position: relative;
     animation: animatetop 0.4s;
 }
-
-@keyframes animatetop {
-    from {
-        top: -300px;
-        opacity: 0;
-    }
-
-    to {
-        top: 0;
-        opacity: 1;
-    }
-}
-
-.login-card-4,
-.login-hover-shadow:hover {
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.login-container,
-.login-panel {
-    padding: 0.01em 16px;
-}
-
-.login-panel {
-    margin-top: 16px;
-    margin-bottom: 16px;
-}
-
-.login-teal,
-.login-hover-teal:hover {
-    color: #fff !important;
-    background-color: #3B9E3E !important;
-    width: 20%;
-    height: 50%;
-}
-
-.login-display-topright {
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-.login-button-modal {
-    border: none;
-    display: inline-block;
-    padding: 8px 16px;
-    vertical-align: middle;
-    overflow: hidden;
-    text-decoration: none;
-    color: inherit;
-    background-color: inherit;
-    text-align: center;
-    cursor: pointer;
-    white-space: nowrap;
-}
-
 .input-form {
-    border-radius: 25px !important;
-    margin: 2% 16%;
-    background-color: #53c757;
-    border-color: #fff;
-    font-family: Poppins;
-    width: 70%;
-}
-
-.input-checkbox {
-    font-family: Poppins;
-    font-size: 9px;
-}
-
-.cadastro-teal,
-.cadastro-hover-teal:hover {
-    color: #fff !important;
-    background-color: #3B9E3E !important;
-    width: 650px;
-    height: 450px;
-}
-
-/* estilização do quero doar*/
-
-.input-form-doacao {
-    border-radius: 25px !important;
-    margin: 2% 16%;
-    background-color: #fff;
-    border-color: #3B9E3E;
-    font-family: Poppins;
-    width: 70%;
-}
-::placeholder {
-    color:rgb(0, 0, 0);
-    font-family: Poppins;
-    font-weight: 500;
-}
-
-.topico-doacao {
-    background-color: #FFFFFF;
-    padding: 100px 0;
-    border-top: 2px inset #3B9E3E;
-    display: flex;
-    text-align: center;
-    font-size: 12px;
-}
-
-.topico-doacao .topico-conteudo-doacao {
-    margin: 30px;
-    color: #3B9E3E !important;
-    font-style: bold;
-    font-family: Poppins;
-}
-
-/* estilização do quem somos */
-.texto-quem-somos {
-    text-align: center;
-    line-height: 36px;
-}
-
-/* estilização do quero adotar */
-/* #myInput {
-    background-image: url('/css/searchicon.png');
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
-    width: 100%;
+    display: block;
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding: 10px;
     font-size: 16px;
-    padding: 12px 20px 12px 40px;
-    border: 1px solid #ddd;
-    margin-bottom: 12px;
-  } */
-
-.input-form-adocao {
-    border-radius: 25px !important;
-    background-color: #fff;
-    border-color: #3B9E3E;
-    font-family: Poppins;
-    width: 16%;
-    background-image: url('/css/searchicon.png') !important;
-    /* background-position: 10px 10px; */
-    /* background-repeat: no-repeat; */
+    background-color: #FFFFFF;
 }
+
+

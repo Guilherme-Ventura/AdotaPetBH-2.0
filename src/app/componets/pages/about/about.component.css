@@ -1,10 +1,13 @@
 .about-container {
-    background-color: #FFFFFF;
-    padding: 100px 0;
     border-top: 2px inset #3B9E3E;
-    display: flex;
+    background-color: #FFFFFF;
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
+    color: #3B9E3E;
+    font-style: bold;
+    font-family: Poppins;
+    display: flex;
+    padding: 10px 20px 326px 20px;
 }
 
 .topico-conteudo-doacao {
@@ -14,10 +17,11 @@
     font-family: Poppins;
 }
 h1{
-    font-size: 400%;
+    font-size: 36px;
     padding: 40px;
+    font-weight: bold;
 }
 h2{
-    font-size: 200%;
+    font-size: 22px;
     padding: 40px;
 }

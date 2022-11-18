@@ -1,11 +1,12 @@
 .main {
     background-image: url(/assets/img/ImgDog.jpg);
-    height: 580px;
+    height: 500px;
     width: 100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    border-top: 2px inset #3B9E3E;
 }
 .topic-container {
     border-top: 2px inset #3B9E3E;
@@ -36,5 +37,5 @@ h2{
 
 p{
     font-size: 115%;
-    padding: 20px 40px 0px 40px;
+    padding: 20px 40px;
 }

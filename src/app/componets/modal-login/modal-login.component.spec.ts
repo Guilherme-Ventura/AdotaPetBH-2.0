@@ -21,3 +21,10 @@ describe('ModalLoginComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+
+function LoginToggle(){
+  var container = document.querySelector('container')
+  container?.classList.toggle('active');
+  var popup = document.querySelector(".login-form")
+  popup?.classList.toggle('active')
+}
