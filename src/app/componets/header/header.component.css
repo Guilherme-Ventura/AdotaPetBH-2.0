@@ -1,18 +1,22 @@
 .header-container {
     background-color: #FFFFFF;
-    height: 103px;
+    height: 65px;
     width: 100%;
-    position: relative;
+    position: fixed;
     display: inline-block;
     right: 0px;
+    border-bottom: 2px solid #3B9E3E;
+    padding:10px 0 10px 0;
+    font-family: Poppins;
+    
 }
 
 .img-logo {
-    width: 220px;
-    height: 104px;
+    width: 280px;
+    height: 60px;
     position: absolute;
-    top: 0;
-    left: 0;
+    padding:5px 0 5px 25px;
+    display: flex;
 }
 
 .menu-container {
@@ -20,22 +24,24 @@
     display: flex;
     align-items: center;
     width: 78%;
-    margin-top: 35px;
+    height: 10%;
+    margin-top: 27px;
     left: 350px;
+    
 }
 
 .menu {
-    margin: auto;
     text-align: center;
+    
 }
 
 .menu a {
     color: #3B9E3E;
-    font-size: 18px;
     text-decoration: none;
     padding: 0px 20px;
-    margin-top: 25px;
     text-align: center;
+    font-size: 15px;
+    font-style: bold;
 }
 
 .menu a:hover {
@@ -44,6 +50,7 @@
 
 .buttons-container{
     width: 40%;
+    padding:0 30px 0 30px;
 }
 
 .button-login {
@@ -58,6 +65,7 @@
     border: 1px solid;
     border-color: #3B9E3E;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .button-login:hover {

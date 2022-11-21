@@ -16,7 +16,7 @@
     background-color: #FFFFFF;
     padding: 100px 0;
     border-top: 2px inset #3B9E3E;
-    display: flex;
+    display: flexbox;
     text-align: center;
     font-size: 12px;
 }
