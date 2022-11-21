@@ -7,7 +7,7 @@
             Vamos encontrar o dono ideal para ele!
         </h2>
         <h2>Preencha o formulário abaixo com as informações do animal</h2>
-            <div>
+            
                 <form>
                     <input placeholder="Tipo" class="input-form-doacao" required>
                     <input placeholder="Idade (em meses):" class="input-form-doacao" required>
@@ -15,12 +15,19 @@
                     <input placeholder="Cor do pelo:" class="input-form-doacao" required>
                     <input placeholder="Porte:" class="input-form-doacao" required>
                     <input placeholder="Detalhes gerais:" class="input-form-doacao">
-                    <!-- falta o campo de selecionar imagens -->
                 </form>
-            </div>
-            <span class="buttons">
-                <a class="button-login" href="#">Divulgar meu Pet</a>
-            </span>
+            
+                <div class="input-imagem">
+                    <p>Faça o upload das fotos do seu pet e facilite a adoção.</p>
+                    <input type="file" name="imagem" class="btn btn-success" multiple/>
+                </div> <br>
+                <span class="buttons">
+                    <a class="button-login" href="#">Divulgar meu Pet</a>
+                </span>
+           
+
+            
     </div>
 </div>
+
 <app-footer></app-footer>
