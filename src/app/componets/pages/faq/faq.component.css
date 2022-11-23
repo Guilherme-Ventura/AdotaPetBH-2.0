@@ -1,20 +1,17 @@
 .faq-container {
-    border-top: 2px inset #3B9E3E;
     background-color: #FFFFFF;
     text-align: center;
     font-size: 16px;
     color: #3B9E3E;
-    font-style: bold;
+
     font-family: Poppins;
-    display: flex;
-    padding: 10px 20px 0px 20px;
-    justify-content: center; 
+    /* padding: 10px 20px 0px 20px; */
+    position: relative;
+    margin-top: 100px;
 }
 
 .questions {
     margin: 30px;
-    color: #3B9E3E !important;
-    font-style: bold;
     font-family: Poppins;
     text-align: center;
 }

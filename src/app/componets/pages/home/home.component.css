@@ -16,6 +16,8 @@
     font-style: bold;
     font-family: Poppins;
     display: flex;
+    position: relative;
+    margin-bottom: 64px;
     padding: 10px 20px 0px 20px;
 }
 

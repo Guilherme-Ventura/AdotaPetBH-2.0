@@ -3,8 +3,10 @@
     height: 65px;
     width: 100%;
     position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
     display: inline-block;
-    right: 0px;
     border-bottom: 2px solid #3B9E3E;
     padding:10px 0 10px 0;
     font-family: Poppins;
