@@ -1,34 +1,30 @@
 .header-container {
     background-color: #FFFFFF;
-    height: 65px;
-    width: 100%;
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    z-index: 10;
-    display: inline-block;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
     border-bottom: 2px solid #3B9E3E;
     padding:10px 0 10px 0;
     font-family: Poppins;
+    height: 8vh;
     
 }
 
 .img-logo {
     width: 280px;
     height: 60px;
-    position: absolute;
-    padding:5px 0 5px 25px;
-    display: flex;
+    padding:10px 0 0px 25px;
+    
 }
 
 .menu-container {
-    position: absolute;
     display: flex;
     align-items: center;
     width: 78%;
     height: 10%;
-    margin-top: 27px;
+    margin-top: -1px;
     left: 350px;
+    justify-content: end;
     
 }
 
