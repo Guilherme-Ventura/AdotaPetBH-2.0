@@ -1,19 +1,52 @@
-.header-container {
+.header-container{
+    display: flex;
+    justify-content: space-between;
     background-color: #FFFFFF;
-    justify-content: space-around;
+    justify-content: space-between;
     display: flex;
     align-items: center;
     border-bottom: 2px solid #3B9E3E;
-    padding:10px 0 10px 0;
     font-family: Poppins;
     height: 8vh;
+    padding: 8px 20% 8px 80px; 
+}
+
+
+li a {
+    color: #3B9E3E;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+button{
+    display: flex;
+}
+
+.button-login {
     
 }
+
+
+.navigation {
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+
+a .brand {
+    width: 280px;
+    height: 52px;
+    
+}
+
+/*
 
 .img-logo {
     width: 280px;
     height: 60px;
-    padding:10px 0 0px 25px;
+    
     
 }
 
@@ -139,3 +172,5 @@ section.main {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+*/
