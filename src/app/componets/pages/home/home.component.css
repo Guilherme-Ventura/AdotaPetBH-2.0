@@ -16,9 +16,7 @@
     font-style: bold;
     font-family: Poppins;
     display: flex;
-    position: relative;
-    margin-bottom: 64px;
-    padding: 10px 20px 0px 20px;
+    /*padding: 10px 20px 0px 20px;*/
 }
 
 .topicos-rodape {
@@ -38,5 +36,6 @@ h2{
 
 p{
     font-size: 115%;
-    padding: 20px 40px;
+    /*padding: 20px 40px;*/
 }
+
