@@ -19,6 +19,10 @@
     /*padding: 10px 20px 0px 20px;*/
 }
 
+.topicos-conteudo {
+  margin: 30px;
+}
+
 .topicos-rodape {
     background-color: #3B9E3E;
     padding: 10px 0;
@@ -32,6 +36,7 @@ h2{
     font-size: 125%;
     font-weight: bold;
     padding-top: 0px;
+    margin-bottom: 25px;
 }
 
 p{
