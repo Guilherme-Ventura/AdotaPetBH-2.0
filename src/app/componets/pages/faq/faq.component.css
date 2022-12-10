@@ -1,15 +1,26 @@
-.topico-doacao {
+.faq-container {
     background-color: #FFFFFF;
-    padding: 100px 0;
-    border-top: 2px inset #3B9E3E;
-    display: flex;
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
+    color: #3B9E3E;
+
+    font-family: Poppins;
+    /* padding: 10px 20px 0px 20px; */
+    position: relative;
+    margin-top: 100px;
 }
 
-.topico-doacao .topico-conteudo-doacao {
+.questions {
     margin: 30px;
-    color: #3B9E3E !important;
-    font-style: bold;
     font-family: Poppins;
+    text-align: center;
+}
+h1{
+    font-size: 36px;
+    padding: 40px;
+    font-weight: bold;
+}
+h2{
+    font-size: 22px;
+    padding: 40px;
 }

@@ -1,15 +1,24 @@
-.topico-doacao {
+.about-container {
+    position: relative;
+    margin-top: 150px;
     background-color: #FFFFFF;
-    padding: 100px 0;
-    border-top: 2px inset #3B9E3E;
-    display: flex;
     text-align: center;
-    font-size: 12px;
-}
-
-.topico-doacao .topico-conteudo-doacao {
-    margin: 30px;
-    color: #3B9E3E !important;
+    font-size: 16px;
+    color: #3B9E3E;
     font-style: bold;
     font-family: Poppins;
+}
+
+.topico-conteudo-doacao {
+    margin: 30px;
+    font-size: 36px;
+    padding: 40px;
+    font-style: bold;
+    font-family: Poppins;
+}
+
+.texto-quem-somos{
+    font-size: 22px;
+    padding: 40px;
+    margin-bottom: 261px;
 }
