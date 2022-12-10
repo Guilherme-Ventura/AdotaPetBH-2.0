@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "adodapet": {
+      "hosting": {
+        "AdotaPetBH": [
+          "adodapet"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "adodapet"
+  }
+}
