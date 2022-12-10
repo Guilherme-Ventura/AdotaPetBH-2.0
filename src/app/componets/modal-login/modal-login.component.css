@@ -1,3 +1,13 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+h2{
+  display: flex;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
 input {
   border: 1px solid transparent;
   border-bottom: 1px solid #ccc;
@@ -9,6 +19,7 @@ input[type=number],
 input[type=date],
 input[type=file] {
   width: 400px;
+
 }
 .login-modal {
   z-index: 3;
@@ -22,15 +33,22 @@ input[type=file] {
   overflow: auto;
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.4);
+
 }
 
 .login-modal-content {
   margin: auto;
-  background-color: #fff;
+  color: #3B9E3E;
+  background-color:#FFFFFF;
   position: relative;
   padding: 0;
   outline: 0;
   width: 500px;
+  height: 260px;
+  border-radius: 30px;
+  border: 2px solid;
+  border-color: #3B9E3E;
+
 }
 
 .login-animate-top {
@@ -67,14 +85,13 @@ input[type=file] {
 
 .login-teal,
 .login-hover-teal:hover {
-  color: #fff !important;
-  background-color: #3B9E3E !important;
+  color:#3B9E3E !important;
 }
 
 .login-display-topright {
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 5px;
+  top: 5px;
 }
 
 .login-button-modal {
@@ -92,11 +109,11 @@ input[type=file] {
 }
 
 .input-form {
-  width: 100%;
-  display: block;
-  border: 1px solid #000;
+  width: 50%;
+  display: flex;
+  border: 1px solid #3B9E3E;
   border-radius: 50px;
-  padding: 20px 16px;
+  padding:5px 16px;
   margin: 20px auto;
   outline: none;
 }
@@ -113,9 +130,11 @@ input[type=file] {
   width: 300px;
 }
 
+
 .input-checkbox {
   font-family: Poppins;
-  font-size: 9px;
+  font-size: 12px;
+  margin-left: 5px;
 }
 
 .cadastro-teal,
@@ -124,6 +143,31 @@ input[type=file] {
   background-color: #3B9E3E !important;
   width: 43%;
   height: 75%;
+}
+
+.button-login{
+  color: #3B9E3E;
+  border: 1px solid;
+  border-color: #3B9E3E;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 15px;
+  margin-left: 150px;
+  justify-content: center;
+  width: 150px;
+  height: 25px;
+  display: flex;
+  border-radius: 25px;
+  cursor: pointer;
+  background-color: #FFFFFF;
+  text-decoration: none;
+  align-items: center;
+}
+
+.button-login:hover {
+  color: #FFFFFF;
+  border-color: #d9d9d9;
+  background-color: #3B9E3E;
 }
 
 /* estilização do quero doar*/

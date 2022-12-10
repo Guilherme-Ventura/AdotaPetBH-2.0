@@ -1,3 +1,8 @@
+h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
 .topico-doacao {
     background-color: #FFFFFF;
     display: flex;
@@ -12,8 +17,8 @@
 .input-form-doacao {
     border-radius: 25px;
     margin: 2% 16%;
-    background-color: #fff;
-    border-color: #3B9E3E;
+    background-color:#FFFFFF;
+    border: 2px solid #3B9E3E;
     font-family: Poppins;
     width: 25%;
     padding: 10px;
@@ -25,7 +30,7 @@
 }
 
 .input-imagem{
-    
+
     color: #3B9E3E !important;
     font-family: Poppins;
     display: inline-block;
