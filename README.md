@@ -1,5 +1,7 @@
 # AdotaPetBH
 
+Essa é uma documentação para auxiliar no desenvolvimento das funcionalidades do Adota Pet BH
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.8.
 
 ## Development server
@@ -25,3 +27,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Big Picture
+Arquitetura do projeto: https://www.canva.com/design/DAFRf44ijBA/-CdYQWfQBRSos_U-YsFtXA/edit?utm_content=DAFRf44ijBA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+##Prototype
+
+Protótipo no Figma: https://www.figma.com/proto/QzI78bDHsNWlXkij5dzYJH/Prot%C3%B3tipo-AdotaPet-BH?node-id=126%3A127&scaling=min-zoom&page-id=126%3A117&starting-point-node-id=126%3A127
